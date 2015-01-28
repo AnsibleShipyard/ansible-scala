@@ -1,6 +1,8 @@
 ansible-scala
 ==============
 
+[![Build Status](https://travis-ci.org/AnsibleShipyard/ansible-scala.svg?branch=master)](https://travis-ci.org/AnsibleShipyard/ansible-scala)
+
 Scala Playbook for Ansible
 
 This playbook will install Scala.

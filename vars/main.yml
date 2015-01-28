@@ -1,6 +1,6 @@
 ---
-scala_playbook_version: "0.1.1"
-scala_version: "2.10.3"
+scala_playbook_version: "0.2.0"
+scala_version: "2.11.5"
 scala_version_name: "scala-{{scala_version}}"
 scala_archive_file: "{{scala_version_name}}.tgz"
 scala_download_url: "http://www.scala-lang.org/files/archive/{{scala_archive_file}}"

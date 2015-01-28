@@ -17,22 +17,22 @@
   command: mv /tmp/{{scala_version_name}} {{scala_lib_path_target}} chdir=/tmp/
 
 - name: Link scala
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/scala {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/scala {{scala_link_target}}
 
 - name: Link scalac
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/scalac {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/scalac {{scala_link_target}}
 
 - name: Link fsc
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/fsc {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/fsc {{scala_link_target}}
 
 - name: Link sbaz
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/sbaz {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/sbaz {{scala_link_target}}
 
 - name: Link sbaz-setup
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/sbaz-setup {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/sbaz-setup {{scala_link_target}}
 
 - name: Link scaladoc
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/scaladoc {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/scaladoc {{scala_link_target}}
 
 - name: Link scalap
-  command: sudo ln -sf {{scala_lib_path_target}}/bin/scalap {{scala_link_target}}
+  command: ln -sf {{scala_lib_path_target}}/bin/scalap {{scala_link_target}}
